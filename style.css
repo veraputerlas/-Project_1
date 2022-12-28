@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 .home{
     width: 1511px;
     height: 886px;
-    background-color: #fcb;
+    background-color: #FCFBF7;
     padding-left: 87px;
     padding-right: 65px;
     padding-top: 39px;
@@ -28,8 +29,8 @@ ul{
 }
 li{
     display:inline;
-    font-size: 22;
-    line-height: 21;
+    font-size: 22px;
+    line-height: 21px;
     color: black;
     font-weight: 400px;
     margin-right: 56px;
@@ -41,8 +42,9 @@ input{
     width: 750px;
     height: 712px;
     position: absolute;
-    left: 750px;
-    top: 150px;
+    left: 610px;
+    top: 140px;
+    right: 94px;
 }
 h1{
     color: black;
@@ -51,34 +53,53 @@ h1{
     line-height: 49px;
     display:inline-block;
     width: 211px;
-    margin-left: 18px;
 }
 h2{
-    color: coral;
+    color: #FF7E00;
     font-weight: 700px;
     font-size: 125px;
     line-height: 119px;
-    display:inline;
-    margin-left: 18px;
+    display:inline-block;
 }
 .header_descr{
-    color: dimgray;
+    color: #909090;
     font-size: 22px;
     line-height: 31px;
-    font-weight: 600px;
+    font-weight: 400;
+    display:inline-block;
+    width: 568px;
+    margin-top: 24px;
 }
 .btn_order{
-    background-color: grey;
+    background-color: #2F2F2F;
     width: 188px;
     height: 70px;
-    border: 1px;
+    border: 1px solid #2F2F2F;
     border-radius: 32px;
-    color: aliceblue;
+    color: #F4ECE1;
     font-size: 20px;
+    font-weight: 600px;
+    line-height: 19px;
+    cursor: pointer;
+    margin-top: 44px;
+    
+}
+.btn_wvideo{
+    color: #2F2F2F;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 19px;
+    background: none;
+    border: none;
+    margin-top: 44px;
+    margin-left: 96px;
 }
 .company_descr{
+    margin-top: 152px;
+    display: inline-block;
     margin-top: 152px;
 
 }
 .wrapper{
+    display: block;
 }
