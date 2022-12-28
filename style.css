@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 1511px;
+    height: 886px;
+    background-color: #fcb;
+    padding-left: 87px;
+    padding-right: 65px;
+    padding-top: 39px;
+}
+.logo_name{
+font-weight: 600px;
+font-size: 32px;
+line-height: 45px;
+color:black;
+display:inline;
+}
+.logo_img{
+    width: 32px;
+    height: 32px;
+}
+ul{    
+    display:inline;
+    margin-left: 352px;
+}
+li{
+    display:inline;
+    font-size: 22;
+    line-height: 21;
+    color: black;
+    font-weight: 400px;
+    margin-right: 56px;
+}
+input{
+    margin-left: 104px;
+}
+.basket{
+    width: 750px;
+    height: 712px;
+    position: absolute;
+    left: 750px;
+    top: 150px;
+}
+h1{
+    color: black;
+    font-weight: 700px;
+    font-size: 52px;
+    line-height: 49px;
+    display:inline-block;
+    width: 211px;
+    margin-left: 18px;
+}
+h2{
+    color: coral;
+    font-weight: 700px;
+    font-size: 125px;
+    line-height: 119px;
+    display:inline;
+    margin-left: 18px;
+}
+.header_descr{
+    color: dimgray;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 600px;
+}
+.btn_order{
+    background-color: grey;
+    width: 188px;
+    height: 70px;
+    border: 1px;
+    border-radius: 32px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.company_descr{
+    margin-top: 152px;
+
+}
+.wrapper{
+}
